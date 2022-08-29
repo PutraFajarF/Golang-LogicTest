@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*
  * Complete the 'reverseArray' function below.
  *
@@ -18,7 +16,7 @@ func reverseArray(a []int32) []int32 {
 	return a
 }
 
-func main() {
-	fmt.Printf("%v\n", reverseArray([]int32{8, 2, 3, 9, 10}))
-	fmt.Printf("%v\n", reverseArray([]int32{1, 2, 3, 4}))
-}
+// func main() {
+// 	fmt.Printf("%v\n", reverseArray([]int32{8, 2, 3, 9, 10}))
+// 	fmt.Printf("%v\n", reverseArray([]int32{1, 2, 3, 4}))
+// }
