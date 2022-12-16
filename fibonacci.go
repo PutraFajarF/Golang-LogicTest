@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func fibonacci(n int) []int {
 	n1 := 0
 	n2 := 1
@@ -16,6 +14,6 @@ func fibonacci(n int) []int {
 	return result
 }
 
-func main() {
-	fmt.Println(fibonacci(10))
-}
+// func main() {
+// 	fmt.Println(fibonacci(10))
+// }
